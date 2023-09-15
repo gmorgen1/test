@@ -1,0 +1,543 @@
+[0m10:24:04.620219 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102852200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1043f3970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1043f3af0>]}
+
+
+============================== 10:24:04.622832 | 08507b95-4627-4931-bc43-b35ad21224b8 ==============================
+[0m10:24:04.622832 [info ] [MainThread]: Running with dbt=1.6.0
+[0m10:24:04.623166 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/greg/Develop/curu/dbt-airbyte', 'debug': 'False', 'warn_error': 'None', 'log_path': '/Users/greg/Develop/curu/dbt-airbyte/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:24:04.652487 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'airbyte'
+[0m10:24:04.652958 [debug] [MainThread]: Command `dbt run` failed at 10:24:04.652898 after 0.05 seconds
+[0m10:24:04.653173 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102852200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103a97fa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103a84b20>]}
+[0m10:24:04.653398 [debug] [MainThread]: Flushing usage events
+[0m10:24:43.123928 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c421a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c3b490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c3b910>]}
+
+
+============================== 10:24:43.126449 | 2967f6d9-7238-4e1a-8b79-6b1e824d95af ==============================
+[0m10:24:43.126449 [info ] [MainThread]: Running with dbt=1.6.0
+[0m10:24:43.126765 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/greg/Develop/curu/dbt-airbyte', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/greg/Develop/curu/dbt-airbyte/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:24:43.402381 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2967f6d9-7238-4e1a-8b79-6b1e824d95af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106908670>]}
+[0m10:24:43.407604 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2967f6d9-7238-4e1a-8b79-6b1e824d95af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f0f6a0>]}
+[0m10:24:43.408182 [info ] [MainThread]: Registered adapter: postgres=1.6.0
+[0m10:24:43.430320 [debug] [MainThread]: checksum: 08dabea3fc65f9f8dd48613681c2bcd827397a7ba9ce4c6d52980aba1215e8c9, vars: {}, profile: , target: , version: 1.6.0
+[0m10:24:43.430833 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m10:24:43.431074 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '2967f6d9-7238-4e1a-8b79-6b1e824d95af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f8e230>]}
+[0m10:24:43.791563 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2967f6d9-7238-4e1a-8b79-6b1e824d95af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110521720>]}
+[0m10:24:43.796350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2967f6d9-7238-4e1a-8b79-6b1e824d95af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110523e50>]}
+[0m10:24:43.796611 [info ] [MainThread]: Found 2 models, 4 tests, 0 sources, 0 exposures, 0 metrics, 349 macros, 0 groups, 0 semantic models
+[0m10:24:43.796808 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2967f6d9-7238-4e1a-8b79-6b1e824d95af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f8f370>]}
+[0m10:24:43.797543 [info ] [MainThread]: 
+[0m10:24:43.797923 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m10:24:43.798452 [debug] [ThreadPool]: Acquiring new postgres connection 'list_credit_dev'
+[0m10:24:43.803554 [debug] [ThreadPool]: Using postgres connection "list_credit_dev"
+[0m10:24:43.803815 [debug] [ThreadPool]: On list_credit_dev: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "connection_name": "list_credit_dev"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m10:24:43.803990 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:24:43.806280 [debug] [ThreadPool]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (127.0.0.1), port 5555 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5555 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+[0m10:24:43.806894 [debug] [ThreadPool]: Postgres adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "connection_name": "list_credit_dev"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m10:24:43.807076 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m10:24:43.807263 [debug] [ThreadPool]: Postgres adapter: Error running SQL: macro list_schemas
+[0m10:24:43.807411 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m10:24:43.807571 [debug] [ThreadPool]: On list_credit_dev: No close available on handle
+[0m10:24:43.808131 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:24:43.808320 [debug] [MainThread]: Connection 'list_credit_dev' was properly closed.
+[0m10:24:43.808489 [info ] [MainThread]: 
+[0m10:24:43.808680 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m10:24:43.808943 [error] [MainThread]: Encountered an error:
+Database Error
+  connection to server at "localhost" (127.0.0.1), port 5555 failed: Connection refused
+  	Is the server running on that host and accepting TCP/IP connections?
+  connection to server at "localhost" (::1), port 5555 failed: Connection refused
+  	Is the server running on that host and accepting TCP/IP connections?
+  
+[0m10:24:43.809296 [debug] [MainThread]: Command `dbt run` failed at 10:24:43.809250 after 0.70 seconds
+[0m10:24:43.809490 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c421a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1105219f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111033a90>]}
+[0m10:24:43.809707 [debug] [MainThread]: Flushing usage events
+[0m10:25:08.535415 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1051fe200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d9f4f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d9f970>]}
+
+
+============================== 10:25:08.537972 | 7166c507-2f66-4ea9-847e-992e0586ac73 ==============================
+[0m10:25:08.537972 [info ] [MainThread]: Running with dbt=1.6.0
+[0m10:25:08.538287 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/greg/Develop/curu/dbt-airbyte/logs', 'version_check': 'True', 'profiles_dir': '/Users/greg/Develop/curu/dbt-airbyte', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:25:08.620573 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7166c507-2f66-4ea9-847e-992e0586ac73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10643bd30>]}
+[0m10:25:08.625768 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7166c507-2f66-4ea9-847e-992e0586ac73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073c74c0>]}
+[0m10:25:08.626305 [info ] [MainThread]: Registered adapter: postgres=1.6.0
+[0m10:25:08.636500 [debug] [MainThread]: checksum: 08dabea3fc65f9f8dd48613681c2bcd827397a7ba9ce4c6d52980aba1215e8c9, vars: {}, profile: , target: , version: 1.6.0
+[0m10:25:08.642476 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m10:25:08.642951 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '7166c507-2f66-4ea9-847e-992e0586ac73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10742abc0>]}
+[0m10:25:09.003359 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7166c507-2f66-4ea9-847e-992e0586ac73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107667eb0>]}
+[0m10:25:09.009491 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7166c507-2f66-4ea9-847e-992e0586ac73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107667cd0>]}
+[0m10:25:09.009778 [info ] [MainThread]: Found 2 models, 4 tests, 0 sources, 0 exposures, 0 metrics, 349 macros, 0 groups, 0 semantic models
+[0m10:25:09.009977 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7166c507-2f66-4ea9-847e-992e0586ac73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075363e0>]}
+[0m10:25:09.010718 [info ] [MainThread]: 
+[0m10:25:09.011118 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m10:25:09.011641 [debug] [ThreadPool]: Acquiring new postgres connection 'list_credit_dev'
+[0m10:25:09.016898 [debug] [ThreadPool]: Using postgres connection "list_credit_dev"
+[0m10:25:09.017220 [debug] [ThreadPool]: On list_credit_dev: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "connection_name": "list_credit_dev"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m10:25:09.017400 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:25:09.083153 [debug] [ThreadPool]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+[0m10:25:09.086507 [debug] [ThreadPool]: Postgres adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "connection_name": "list_credit_dev"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m10:25:09.086703 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m10:25:09.086908 [debug] [ThreadPool]: Postgres adapter: Error running SQL: macro list_schemas
+[0m10:25:09.087063 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m10:25:09.087220 [debug] [ThreadPool]: On list_credit_dev: No close available on handle
+[0m10:25:09.087776 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:25:09.087970 [debug] [MainThread]: Connection 'list_credit_dev' was properly closed.
+[0m10:25:09.088148 [info ] [MainThread]: 
+[0m10:25:09.088386 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.08 seconds (0.08s).
+[0m10:25:09.088693 [error] [MainThread]: Encountered an error:
+Database Error
+  connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+  
+[0m10:25:09.089111 [debug] [MainThread]: Command `dbt run` failed at 10:25:09.089051 after 0.57 seconds
+[0m10:25:09.089367 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1051fe200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107666ec0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076d9270>]}
+[0m10:25:09.089632 [debug] [MainThread]: Flushing usage events
+[0m10:25:23.366345 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a061d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1085a74c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1085a7940>]}
+
+
+============================== 10:25:23.368874 | 17614a6e-dedc-483f-9d26-bdce5b62756b ==============================
+[0m10:25:23.368874 [info ] [MainThread]: Running with dbt=1.6.0
+[0m10:25:23.369205 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/greg/Develop/curu/dbt-airbyte', 'log_path': '/Users/greg/Develop/curu/dbt-airbyte/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:25:23.452379 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '17614a6e-dedc-483f-9d26-bdce5b62756b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c44c70>]}
+[0m10:25:23.457388 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '17614a6e-dedc-483f-9d26-bdce5b62756b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108bb3430>]}
+[0m10:25:23.457868 [info ] [MainThread]: Registered adapter: postgres=1.6.0
+[0m10:25:23.467119 [debug] [MainThread]: checksum: 08dabea3fc65f9f8dd48613681c2bcd827397a7ba9ce4c6d52980aba1215e8c9, vars: {}, profile: , target: , version: 1.6.0
+[0m10:25:23.471593 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m10:25:23.471903 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '17614a6e-dedc-483f-9d26-bdce5b62756b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108c32c20>]}
+[0m10:25:23.833348 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '17614a6e-dedc-483f-9d26-bdce5b62756b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e73eb0>]}
+[0m10:25:23.838673 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '17614a6e-dedc-483f-9d26-bdce5b62756b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e73cd0>]}
+[0m10:25:23.838938 [info ] [MainThread]: Found 2 models, 4 tests, 0 sources, 0 exposures, 0 metrics, 349 macros, 0 groups, 0 semantic models
+[0m10:25:23.839141 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '17614a6e-dedc-483f-9d26-bdce5b62756b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d4f700>]}
+[0m10:25:23.839880 [info ] [MainThread]: 
+[0m10:25:23.840264 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m10:25:23.840780 [debug] [ThreadPool]: Acquiring new postgres connection 'list_credit_dev'
+[0m10:25:23.845989 [debug] [ThreadPool]: Using postgres connection "list_credit_dev"
+[0m10:25:23.846247 [debug] [ThreadPool]: On list_credit_dev: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "connection_name": "list_credit_dev"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m10:25:23.846420 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:25:23.856571 [debug] [ThreadPool]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+[0m10:25:23.861040 [debug] [ThreadPool]: Postgres adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "connection_name": "list_credit_dev"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m10:25:23.861301 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m10:25:23.861508 [debug] [ThreadPool]: Postgres adapter: Error running SQL: macro list_schemas
+[0m10:25:23.861667 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m10:25:23.861840 [debug] [ThreadPool]: On list_credit_dev: No close available on handle
+[0m10:25:23.862529 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:25:23.862742 [debug] [MainThread]: Connection 'list_credit_dev' was properly closed.
+[0m10:25:23.862932 [info ] [MainThread]: 
+[0m10:25:23.863131 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.02 seconds (0.02s).
+[0m10:25:23.863382 [error] [MainThread]: Encountered an error:
+Database Error
+  connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+  
+[0m10:25:23.863736 [debug] [MainThread]: Command `dbt run` failed at 10:25:23.863688 after 0.51 seconds
+[0m10:25:23.863941 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a061d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e72860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108ee10c0>]}
+[0m10:25:23.864142 [debug] [MainThread]: Flushing usage events
+[0m10:25:34.743089 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102d16200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1048b74f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1048b7970>]}
+
+
+============================== 10:25:34.745547 | 8a895ed9-1c78-41f6-a8ec-89a910627960 ==============================
+[0m10:25:34.745547 [info ] [MainThread]: Running with dbt=1.6.0
+[0m10:25:34.745855 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/greg/Develop/curu/dbt-airbyte', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/greg/Develop/curu/dbt-airbyte/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:25:34.842531 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8a895ed9-1c78-41f6-a8ec-89a910627960', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103f53d30>]}
+[0m10:25:34.847561 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '8a895ed9-1c78-41f6-a8ec-89a910627960', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104edd840>]}
+[0m10:25:34.847955 [info ] [MainThread]: Registered adapter: postgres=1.6.0
+[0m10:25:34.857362 [debug] [MainThread]: checksum: 08dabea3fc65f9f8dd48613681c2bcd827397a7ba9ce4c6d52980aba1215e8c9, vars: {}, profile: , target: , version: 1.6.0
+[0m10:25:34.862680 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m10:25:34.863023 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '8a895ed9-1c78-41f6-a8ec-89a910627960', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f42bc0>]}
+[0m10:25:35.228863 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8a895ed9-1c78-41f6-a8ec-89a910627960', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10517feb0>]}
+[0m10:25:35.233729 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8a895ed9-1c78-41f6-a8ec-89a910627960', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10517fcd0>]}
+[0m10:25:35.234000 [info ] [MainThread]: Found 2 models, 4 tests, 0 sources, 0 exposures, 0 metrics, 349 macros, 0 groups, 0 semantic models
+[0m10:25:35.234211 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8a895ed9-1c78-41f6-a8ec-89a910627960', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10504a3e0>]}
+[0m10:25:35.234950 [info ] [MainThread]: 
+[0m10:25:35.235339 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m10:25:35.235865 [debug] [ThreadPool]: Acquiring new postgres connection 'list_credit_dev'
+[0m10:25:35.240983 [debug] [ThreadPool]: Using postgres connection "list_credit_dev"
+[0m10:25:35.241220 [debug] [ThreadPool]: On list_credit_dev: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "connection_name": "list_credit_dev"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m10:25:35.241394 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:25:35.249992 [debug] [ThreadPool]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+[0m10:25:35.253522 [debug] [ThreadPool]: Postgres adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "connection_name": "list_credit_dev"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m10:25:35.253879 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m10:25:35.254085 [debug] [ThreadPool]: Postgres adapter: Error running SQL: macro list_schemas
+[0m10:25:35.254245 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m10:25:35.254412 [debug] [ThreadPool]: On list_credit_dev: No close available on handle
+[0m10:25:35.254935 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:25:35.255094 [debug] [MainThread]: Connection 'list_credit_dev' was properly closed.
+[0m10:25:35.255255 [info ] [MainThread]: 
+[0m10:25:35.255440 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.02 seconds (0.02s).
+[0m10:25:35.255684 [error] [MainThread]: Encountered an error:
+Database Error
+  connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+  
+[0m10:25:35.256038 [debug] [MainThread]: Command `dbt run` failed at 10:25:35.255994 after 0.53 seconds
+[0m10:25:35.256243 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102d16200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10517e860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1051ed0f0>]}
+[0m10:25:35.256459 [debug] [MainThread]: Flushing usage events
+[0m10:26:56.005824 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e6e1a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a0f490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a0f910>]}
+
+
+============================== 10:26:56.008374 | d4d13a13-47b8-4e69-8535-e8b0601b9977 ==============================
+[0m10:26:56.008374 [info ] [MainThread]: Running with dbt=1.6.0
+[0m10:26:56.008700 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/greg/Develop/curu/dbt-airbyte', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/greg/Develop/curu/dbt-airbyte/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:26:56.119387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd4d13a13-47b8-4e69-8535-e8b0601b9977', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a5c670>]}
+[0m10:26:56.124416 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd4d13a13-47b8-4e69-8535-e8b0601b9977', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c0ffa0>]}
+[0m10:26:56.124916 [info ] [MainThread]: Registered adapter: postgres=1.6.0
+[0m10:26:56.134359 [debug] [MainThread]: checksum: 08dabea3fc65f9f8dd48613681c2bcd827397a7ba9ce4c6d52980aba1215e8c9, vars: {}, profile: , target: , version: 1.6.0
+[0m10:26:56.139135 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m10:26:56.139433 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'd4d13a13-47b8-4e69-8535-e8b0601b9977', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10709a770>]}
+[0m10:26:56.500596 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd4d13a13-47b8-4e69-8535-e8b0601b9977', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072d7eb0>]}
+[0m10:26:56.505924 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd4d13a13-47b8-4e69-8535-e8b0601b9977', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072d7cd0>]}
+[0m10:26:56.506194 [info ] [MainThread]: Found 2 models, 4 tests, 0 sources, 0 exposures, 0 metrics, 349 macros, 0 groups, 0 semantic models
+[0m10:26:56.506392 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd4d13a13-47b8-4e69-8535-e8b0601b9977', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10709ada0>]}
+[0m10:26:56.507115 [info ] [MainThread]: 
+[0m10:26:56.507512 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m10:26:56.508041 [debug] [ThreadPool]: Acquiring new postgres connection 'list_credit_dev'
+[0m10:26:56.513171 [debug] [ThreadPool]: Using postgres connection "list_credit_dev"
+[0m10:26:56.513418 [debug] [ThreadPool]: On list_credit_dev: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "connection_name": "list_credit_dev"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m10:26:56.513590 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:26:56.547568 [debug] [ThreadPool]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  database "credit_dev" does not exist
+
+[0m10:26:56.551022 [debug] [ThreadPool]: Postgres adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "connection_name": "list_credit_dev"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m10:26:56.551213 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m10:26:56.551407 [debug] [ThreadPool]: Postgres adapter: Error running SQL: macro list_schemas
+[0m10:26:56.551560 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m10:26:56.551720 [debug] [ThreadPool]: On list_credit_dev: No close available on handle
+[0m10:26:56.552243 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:26:56.552395 [debug] [MainThread]: Connection 'list_credit_dev' was properly closed.
+[0m10:26:56.552548 [info ] [MainThread]: 
+[0m10:26:56.552729 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.05 seconds (0.05s).
+[0m10:26:56.552971 [error] [MainThread]: Encountered an error:
+Database Error
+  connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  database "credit_dev" does not exist
+  
+[0m10:26:56.553313 [debug] [MainThread]: Command `dbt run` failed at 10:26:56.553266 after 0.56 seconds
+[0m10:26:56.553511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e6e1a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072d6860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107341090>]}
+[0m10:26:56.553703 [debug] [MainThread]: Flushing usage events
+[0m10:27:19.285242 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b42170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10693b460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10693b8e0>]}
+
+
+============================== 10:27:19.287807 | c77759eb-656e-408a-8447-02c323d7a5de ==============================
+[0m10:27:19.287807 [info ] [MainThread]: Running with dbt=1.6.0
+[0m10:27:19.288170 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/greg/Develop/curu/dbt-airbyte', 'log_path': '/Users/greg/Develop/curu/dbt-airbyte/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:27:19.363714 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c77759eb-656e-408a-8447-02c323d7a5de', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106053d00>]}
+[0m10:27:19.368636 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c77759eb-656e-408a-8447-02c323d7a5de', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f73400>]}
+[0m10:27:19.369010 [info ] [MainThread]: Registered adapter: postgres=1.6.0
+[0m10:27:19.377853 [debug] [MainThread]: checksum: 08dabea3fc65f9f8dd48613681c2bcd827397a7ba9ce4c6d52980aba1215e8c9, vars: {}, profile: , target: , version: 1.6.0
+[0m10:27:19.382935 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m10:27:19.383256 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c77759eb-656e-408a-8447-02c323d7a5de', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ff6650>]}
+[0m10:27:19.747201 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c77759eb-656e-408a-8447-02c323d7a5de', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073dbeb0>]}
+[0m10:27:19.752192 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c77759eb-656e-408a-8447-02c323d7a5de', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073dbcd0>]}
+[0m10:27:19.752473 [info ] [MainThread]: Found 2 models, 4 tests, 0 sources, 0 exposures, 0 metrics, 349 macros, 0 groups, 0 semantic models
+[0m10:27:19.752672 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c77759eb-656e-408a-8447-02c323d7a5de', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10728b700>]}
+[0m10:27:19.753428 [info ] [MainThread]: 
+[0m10:27:19.753812 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m10:27:19.754334 [debug] [ThreadPool]: Acquiring new postgres connection 'list_credit_db'
+[0m10:27:19.759473 [debug] [ThreadPool]: Using postgres connection "list_credit_db"
+[0m10:27:19.759720 [debug] [ThreadPool]: On list_credit_db: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "connection_name": "list_credit_db"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m10:27:19.759892 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:27:19.809703 [debug] [ThreadPool]: SQL status: SELECT 16 in 0.0 seconds
+[0m10:27:19.810606 [debug] [ThreadPool]: On list_credit_db: Close
+[0m10:27:19.811385 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_credit_db, now list_credit_db_credit)
+[0m10:27:19.814459 [debug] [ThreadPool]: Using postgres connection "list_credit_db_credit"
+[0m10:27:19.814645 [debug] [ThreadPool]: On list_credit_db_credit: BEGIN
+[0m10:27:19.814796 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:27:19.820211 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m10:27:19.820376 [debug] [ThreadPool]: Using postgres connection "list_credit_db_credit"
+[0m10:27:19.820538 [debug] [ThreadPool]: On list_credit_db_credit: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "connection_name": "list_credit_db_credit"} */
+select
+      'credit_db' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'credit'
+    union all
+    select
+      'credit_db' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'credit'
+    union all
+    select
+      'credit_db' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'credit'
+  
+[0m10:27:19.832290 [debug] [ThreadPool]: SQL status: SELECT 58 in 0.0 seconds
+[0m10:27:19.833286 [debug] [ThreadPool]: On list_credit_db_credit: ROLLBACK
+[0m10:27:19.833533 [debug] [ThreadPool]: On list_credit_db_credit: Close
+[0m10:27:19.839632 [debug] [MainThread]: Using postgres connection "master"
+[0m10:27:19.839906 [debug] [MainThread]: On master: BEGIN
+[0m10:27:19.840093 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:27:19.844871 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m10:27:19.845125 [debug] [MainThread]: Using postgres connection "master"
+[0m10:27:19.845335 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m10:27:19.854088 [debug] [MainThread]: SQL status: SELECT 9 in 0.0 seconds
+[0m10:27:19.855114 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c77759eb-656e-408a-8447-02c323d7a5de', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107449480>]}
+[0m10:27:19.855365 [debug] [MainThread]: On master: ROLLBACK
+[0m10:27:19.855591 [debug] [MainThread]: Using postgres connection "master"
+[0m10:27:19.855744 [debug] [MainThread]: On master: BEGIN
+[0m10:27:19.855997 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m10:27:19.856140 [debug] [MainThread]: On master: COMMIT
+[0m10:27:19.856284 [debug] [MainThread]: Using postgres connection "master"
+[0m10:27:19.856419 [debug] [MainThread]: On master: COMMIT
+[0m10:27:19.856606 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m10:27:19.856749 [debug] [MainThread]: On master: Close
+[0m10:27:19.857097 [info ] [MainThread]: Concurrency: 1 threads (target='local')
+[0m10:27:19.857283 [info ] [MainThread]: 
+[0m10:27:19.859358 [debug] [Thread-1 (]: Began running node model.airbyte.my_first_dbt_model
+[0m10:27:19.859656 [info ] [Thread-1 (]: 1 of 2 START sql table model credit.my_first_dbt_model ......................... [RUN]
+[0m10:27:19.860012 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_credit_db_credit, now model.airbyte.my_first_dbt_model)
+[0m10:27:19.860199 [debug] [Thread-1 (]: Began compiling node model.airbyte.my_first_dbt_model
+[0m10:27:19.861640 [debug] [Thread-1 (]: Writing injected SQL for node "model.airbyte.my_first_dbt_model"
+[0m10:27:19.862160 [debug] [Thread-1 (]: Timing info for model.airbyte.my_first_dbt_model (compile): 10:27:19.860329 => 10:27:19.862058
+[0m10:27:19.862349 [debug] [Thread-1 (]: Began executing node model.airbyte.my_first_dbt_model
+[0m10:27:19.883914 [debug] [Thread-1 (]: Writing runtime sql for node "model.airbyte.my_first_dbt_model"
+[0m10:27:19.884650 [debug] [Thread-1 (]: Using postgres connection "model.airbyte.my_first_dbt_model"
+[0m10:27:19.884892 [debug] [Thread-1 (]: On model.airbyte.my_first_dbt_model: BEGIN
+[0m10:27:19.885092 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:27:19.890161 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m10:27:19.890406 [debug] [Thread-1 (]: Using postgres connection "model.airbyte.my_first_dbt_model"
+[0m10:27:19.890624 [debug] [Thread-1 (]: On model.airbyte.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "node_id": "model.airbyte.my_first_dbt_model"} */
+
+  
+    
+
+  create  table "credit_db"."credit"."my_first_dbt_model__dbt_tmp"
+  
+  
+    as
+  
+  (
+    /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+  );
+  
+[0m10:27:19.903008 [debug] [Thread-1 (]: SQL status: SELECT 2 in 0.0 seconds
+[0m10:27:19.906331 [debug] [Thread-1 (]: Using postgres connection "model.airbyte.my_first_dbt_model"
+[0m10:27:19.906551 [debug] [Thread-1 (]: On model.airbyte.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "node_id": "model.airbyte.my_first_dbt_model"} */
+alter table "credit_db"."credit"."my_first_dbt_model" rename to "my_first_dbt_model__dbt_backup"
+[0m10:27:19.908161 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m10:27:19.909623 [debug] [Thread-1 (]: Using postgres connection "model.airbyte.my_first_dbt_model"
+[0m10:27:19.909816 [debug] [Thread-1 (]: On model.airbyte.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "node_id": "model.airbyte.my_first_dbt_model"} */
+alter table "credit_db"."credit"."my_first_dbt_model__dbt_tmp" rename to "my_first_dbt_model"
+[0m10:27:19.910470 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m10:27:19.920393 [debug] [Thread-1 (]: On model.airbyte.my_first_dbt_model: COMMIT
+[0m10:27:19.920615 [debug] [Thread-1 (]: Using postgres connection "model.airbyte.my_first_dbt_model"
+[0m10:27:19.920798 [debug] [Thread-1 (]: On model.airbyte.my_first_dbt_model: COMMIT
+[0m10:27:19.922510 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m10:27:19.926468 [debug] [Thread-1 (]: Using postgres connection "model.airbyte.my_first_dbt_model"
+[0m10:27:19.926675 [debug] [Thread-1 (]: On model.airbyte.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "node_id": "model.airbyte.my_first_dbt_model"} */
+drop table if exists "credit_db"."credit"."my_first_dbt_model__dbt_backup" cascade
+[0m10:27:19.937021 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m10:27:19.937900 [debug] [Thread-1 (]: Timing info for model.airbyte.my_first_dbt_model (execute): 10:27:19.862485 => 10:27:19.937792
+[0m10:27:19.938146 [debug] [Thread-1 (]: On model.airbyte.my_first_dbt_model: Close
+[0m10:27:19.938595 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c77759eb-656e-408a-8447-02c323d7a5de', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107467490>]}
+[0m10:27:19.938975 [info ] [Thread-1 (]: 1 of 2 OK created sql table model credit.my_first_dbt_model .................... [[32mSELECT 2[0m in 0.08s]
+[0m10:27:19.939324 [debug] [Thread-1 (]: Finished running node model.airbyte.my_first_dbt_model
+[0m10:27:19.940050 [debug] [Thread-1 (]: Began running node model.airbyte.my_second_dbt_model
+[0m10:27:19.940407 [info ] [Thread-1 (]: 2 of 2 START sql view model credit.my_second_dbt_model ......................... [RUN]
+[0m10:27:19.940805 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.airbyte.my_first_dbt_model, now model.airbyte.my_second_dbt_model)
+[0m10:27:19.941030 [debug] [Thread-1 (]: Began compiling node model.airbyte.my_second_dbt_model
+[0m10:27:19.942731 [debug] [Thread-1 (]: Writing injected SQL for node "model.airbyte.my_second_dbt_model"
+[0m10:27:19.943142 [debug] [Thread-1 (]: Timing info for model.airbyte.my_second_dbt_model (compile): 10:27:19.941194 => 10:27:19.943038
+[0m10:27:19.943363 [debug] [Thread-1 (]: Began executing node model.airbyte.my_second_dbt_model
+[0m10:27:19.955397 [debug] [Thread-1 (]: Writing runtime sql for node "model.airbyte.my_second_dbt_model"
+[0m10:27:19.956051 [debug] [Thread-1 (]: Using postgres connection "model.airbyte.my_second_dbt_model"
+[0m10:27:19.956286 [debug] [Thread-1 (]: On model.airbyte.my_second_dbt_model: BEGIN
+[0m10:27:19.956477 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:27:19.961692 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m10:27:19.961964 [debug] [Thread-1 (]: Using postgres connection "model.airbyte.my_second_dbt_model"
+[0m10:27:19.962154 [debug] [Thread-1 (]: On model.airbyte.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "node_id": "model.airbyte.my_second_dbt_model"} */
+
+  create view "credit_db"."credit"."my_second_dbt_model__dbt_tmp"
+    
+    
+  as (
+    -- Use the `ref` function to select from other models
+
+select *
+from "credit_db"."credit"."my_first_dbt_model"
+where id = 1
+  );
+[0m10:27:19.964919 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m10:27:19.966655 [debug] [Thread-1 (]: Using postgres connection "model.airbyte.my_second_dbt_model"
+[0m10:27:19.966903 [debug] [Thread-1 (]: On model.airbyte.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "node_id": "model.airbyte.my_second_dbt_model"} */
+alter table "credit_db"."credit"."my_second_dbt_model__dbt_tmp" rename to "my_second_dbt_model"
+[0m10:27:19.967552 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m10:27:19.968738 [debug] [Thread-1 (]: On model.airbyte.my_second_dbt_model: COMMIT
+[0m10:27:19.969047 [debug] [Thread-1 (]: Using postgres connection "model.airbyte.my_second_dbt_model"
+[0m10:27:19.969342 [debug] [Thread-1 (]: On model.airbyte.my_second_dbt_model: COMMIT
+[0m10:27:19.970210 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m10:27:19.972783 [debug] [Thread-1 (]: Using postgres connection "model.airbyte.my_second_dbt_model"
+[0m10:27:19.973003 [debug] [Thread-1 (]: On model.airbyte.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.6.0", "profile_name": "airbyte", "target_name": "local", "node_id": "model.airbyte.my_second_dbt_model"} */
+drop view if exists "credit_db"."credit"."my_second_dbt_model__dbt_backup" cascade
+[0m10:27:19.973610 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m10:27:19.974348 [debug] [Thread-1 (]: Timing info for model.airbyte.my_second_dbt_model (execute): 10:27:19.943528 => 10:27:19.974257
+[0m10:27:19.974550 [debug] [Thread-1 (]: On model.airbyte.my_second_dbt_model: Close
+[0m10:27:19.974934 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c77759eb-656e-408a-8447-02c323d7a5de', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107338f70>]}
+[0m10:27:19.975244 [info ] [Thread-1 (]: 2 of 2 OK created sql view model credit.my_second_dbt_model .................... [[32mCREATE VIEW[0m in 0.03s]
+[0m10:27:19.975553 [debug] [Thread-1 (]: Finished running node model.airbyte.my_second_dbt_model
+[0m10:27:19.976631 [debug] [MainThread]: Using postgres connection "master"
+[0m10:27:19.976846 [debug] [MainThread]: On master: BEGIN
+[0m10:27:19.976996 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m10:27:19.981516 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m10:27:19.981681 [debug] [MainThread]: On master: COMMIT
+[0m10:27:19.981833 [debug] [MainThread]: Using postgres connection "master"
+[0m10:27:19.981985 [debug] [MainThread]: On master: COMMIT
+[0m10:27:19.982370 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m10:27:19.982578 [debug] [MainThread]: On master: Close
+[0m10:27:19.982939 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:27:19.983098 [debug] [MainThread]: Connection 'model.airbyte.my_second_dbt_model' was properly closed.
+[0m10:27:19.983280 [info ] [MainThread]: 
+[0m10:27:19.983470 [info ] [MainThread]: Finished running 1 table model, 1 view model in 0 hours 0 minutes and 0.23 seconds (0.23s).
+[0m10:27:19.983872 [debug] [MainThread]: Command end result
+[0m10:27:19.988279 [info ] [MainThread]: 
+[0m10:27:19.988633 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:27:19.988834 [info ] [MainThread]: 
+[0m10:27:19.989063 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[0m10:27:19.989556 [debug] [MainThread]: Command `dbt run` succeeded at 10:27:19.989480 after 0.72 seconds
+[0m10:27:19.989867 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b42170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ff73a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106facbe0>]}
+[0m10:27:19.990124 [debug] [MainThread]: Flushing usage events

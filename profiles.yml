@@ -1,0 +1,30 @@
+airbyte:
+  target: local
+  outputs:
+    local:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: postgres
+      port: 5432
+      dbname: credit_db
+      schema: "credit"
+      threads: 1
+#    dev:
+#      type: postgres
+#      host: "{{ env_var('DB_HOST') }}"
+#      user: "{{ env_var('DB_ACCOUNT') }}"
+#      password: "{{ env_var('DB_PASSWORD') }}"
+#      port: "{{ env_var('DB_PORT') | as_number }}"
+#      dbname: "{{ env_var('DB_SCHEMA') }}"
+#      schema: "credit"
+#      threads: 1
+#    prod:
+#      type: postgres
+#      host: "{{ env_var('DB_HOST') }}"
+#      user: "{{ env_var('DB_ACCOUNT') }}"
+#      password: "{{ env_var('DB_PASSWORD') }}"
+#      port: "{{ env_var('DB_PORT') | as_number }}"
+#      dbname: "{{ env_var('DB_SCHEMA') }}"
+#      schema: "credit"
+#      threads: 1
